@@ -133,7 +133,7 @@ echo "                                             "
 fi
 
 
-# nikto will run on port 80 (change / to :8080 or your specific port)
+# nikto scan
 
 printf "${bblue}Would You Like To Execute A Nikto Scan? Skip${bgreen}(s)${bblue}? ${bgreen}(y/n/s):${reset} "
 read -r nik
@@ -166,6 +166,8 @@ echo "${bgreen}DONE!"
 echo "${bgreen}DISENGAGEMENT COMPLETED SUCCESSFULLY"
 echo "                                             "
 fi
+
+# Dirb scan
 
 printf "${bblue}Would You Like To A Execute Dirb Scan? Skip${bgreen}(s)${bblue}? ${bgreen}(y/n/s):${reset} "
 read -r dir
